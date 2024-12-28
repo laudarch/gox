@@ -4,13 +4,15 @@ Gox is a simple, no-frills tool for Go cross compilation that behaves a
 lot like standard `go build`. Gox will parallelize builds for multiple
 platforms. Gox will also build the cross-compilation toolchain for you.
 
+NB: Project hijacked by me (laudarch) because its too good to go to waste. 
+
 ## Installation
 
 To install Gox, please use `go get`. We tag versions so feel free to
 checkout that tag and compile.
 
 ```
-$ go install github.com/mitchellh/gox@latest
+$ go install github.com/laudarch/gox@latest
 ...
 $ gox -h
 ...
